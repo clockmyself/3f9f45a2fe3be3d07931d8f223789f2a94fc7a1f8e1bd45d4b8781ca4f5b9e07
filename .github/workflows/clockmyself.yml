@@ -1,26 +1,29 @@
 name: clockmyself
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 2/6 * * *'
+    - cron: '30 1/6 * * *'
 
-jobs:  # 12469
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: clockmyself
         env:
-          cfcaw46731: ${{ secrets.cfcaw46731 }}
+          ftv86: ${{ secrets.ftv86 }}
         run: |
-          echo $cfcaw46731 | jq -r .neen0849 | /bin/bash
-          echo $zfs4 | jq -r .bk0354 | /bin/bash
-          echo $aetdu5332 | jq -r .hoi424 | /bin/bash
-          echo $z654 | jq -r .tbi35082 | /bin/bash
-          echo $t846 | jq -r .axdz3582 | /bin/bash
-          echo $z09593 | jq -r .yewu2047 | /bin/bash
-          echo $qxuv58049 | jq -r .vks6 | /bin/bash
-          echo $v49600 | jq -r .t92 | /bin/bash
+          echo $ftv86 | jq -r .zf5534 | /bin/bash
+          echo $hq16 | jq -r .ial61 | /bin/bash
+          echo $hjg19 | jq -r .yk5177 | /bin/bash
+          echo $fzmmi75790 | jq -r .yqn90705 | /bin/bash
+          echo $j6 | jq -r .jo9719 | /bin/bash
+          echo $nclh313 | jq -r .zd49198 | /bin/bash
+          echo $zijq5537 | jq -r .fbec5 | /bin/bash
+          echo $y06569 | jq -r .xe04 | /bin/bash
+          echo $zr8337 | jq -r .j0 | /bin/bash
+          echo $tebvz65 | jq -r .ipgq004 | /bin/bash
+          echo $k99 | jq -r .cdoes952 | /bin/bash
+          echo $i08 | jq -r .w5177 | /bin/bash
+          echo $ovmzt90116 | jq -r .fzf3304 | /bin/bash
 
